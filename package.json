@@ -1,0 +1,15 @@
+{
+  "name": "propertyos-private-erp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero-dependency, encrypted, offline-first property and finance ERP for Vercel",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --check app.js && node --check vault.js && node --check print.js && node --check sw.js && node scripts/check-financials.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

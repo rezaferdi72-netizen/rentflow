@@ -1,0 +1,12 @@
+{
+  "name": "PropertyOS — Business Management",
+  "short_name": "PropertyOS",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#12253b",
+  "description": "Encrypted offline-first property, rent, investment and finance management",
+  "icons": [{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
